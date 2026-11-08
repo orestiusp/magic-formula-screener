@@ -1,0 +1,104 @@
+=== Magic Formula Screener — yfinance ===
+Market: US | Currency: USD | Min Market Cap: $0B
+
+S&P 500: 503 tickers
+Pre-filtered by sector: 503 -> 366 tickers (removed 137 Financials/Utilities/REITs)
+
+Fetching data for 366 tickers (using parallel workers)...
+
+  Progress: 25/366 tickers fetched
+  Progress: 50/366 tickers fetched
+  Progress: 75/366 tickers fetched
+  Progress: 100/366 tickers fetched
+  Progress: 125/366 tickers fetched
+  Progress: 150/366 tickers fetched
+  Progress: 175/366 tickers fetched
+  Progress: 200/366 tickers fetched
+  Progress: 225/366 tickers fetched
+  Progress: 250/366 tickers fetched
+  Progress: 275/366 tickers fetched
+  Progress: 300/366 tickers fetched
+  Progress: 325/366 tickers fetched
+  Progress: 350/366 tickers fetched
+  Progress: 366/366 tickers fetched
+
+Data fetch complete: 353/366 tickers with full data (10 errors)
+
+Errors:
+  WMB: Too Many Requests. Rate limited. Try after a while.
+  WSM: Too Many Requests. Rate limited. Try after a while.
+  WDAY: Too Many Requests. Rate limited. Try after a while.
+  WYNN: Too Many Requests. Rate limited. Try after a while.
+  WDC: Too Many Requests. Rate limited. Try after a while.
+  ZBRA: Too Many Requests. Rate limited. Try after a while.
+  YUM: Too Many Requests. Rate limited. Try after a while.
+  XYL: Too Many Requests. Rate limited. Try after a while.
+  ZBH: Too Many Requests. Rate limited. Try after a while.
+  ZTS: Too Many Requests. Rate limited. Try after a while.
+
+Applying enhanced filters:
+  After data completeness filter: 353 stocks (removed 13)
+  After positive EBIT filter: 341 stocks (removed 12)
+  After market cap >$300M filter: 341 stocks (removed 0)
+  After sector exclusion filter: 340 stocks (removed 1)
+  After industry exclusion filter: 340 stocks (removed 0)
+  After D/E <2.0x filter: 300 stocks (removed 40)
+  After current ratio >1.0x filter: 229 stocks (removed 71)
+  After >1 year listed filter: 229 stocks (removed 0)
+
+Calculating Magic Formula rankings...
+Final ranked universe: 226 stocks
+
+================================================================================
+TOP 30 MAGIC FORMULA STOCKS
+================================================================================
+
+  #  1  SNDK             Sandisk Corporation        EY:   19.5%  ROC:  220.1%  D/E:  0.0  CR:  2.6  MktCap: $   118.8B  $  835.06
+  #  2  ECHO             EchoStar Corporation       EY:   58.9%  ROC:   92.3%  D/E:  0.6  CR: 10.2  MktCap: $    27.5B  $   94.62
+  #  3  BKNG             Booking Holdings Inc. Com  EY:    8.3%  ROC:  291.0%  D/E:  0.0  CR:  1.1  MktCap: $   119.5B  $  160.66
+  #  4  SOLV             Solventum Corporation      EY:   10.2%  ROC:  112.5%  D/E:  1.1  CR:  1.0  MktCap: $    15.4B  $   90.38
+  #  5  MU               Micron Technology, Inc.    EY:   13.4%  ROC:   78.6%  D/E:  0.0  CR:  3.3  MktCap: $   780.7B  $  690.00
+  #  6  EME              EMCOR Group, Inc.          EY:    8.0%  ROC:  114.6%  D/E:  0.1  CR:  1.2  MktCap: $    26.6B  $  608.45
+  #  7  NFLX             Netflix, Inc.              EY:    6.9%  ROC:  500.0%  D/E:  0.6  CR:  1.1  MktCap: $   260.4B  $   63.41
+  #  8  CTSH             Cognizant Technology Solu  EY:   12.0%  ROC:   58.5%  D/E:  0.1  CR:  2.2  MktCap: $    28.9B  $   64.72
+  #  9  ACN              Accenture plc              EY:    7.5%  ROC:   81.9%  D/E:  0.4  CR:  1.4  MktCap: $   153.9B  $  260.50
+  # 10  LDOS             Leidos Holdings, Inc.      EY:    9.2%  ROC:   61.7%  D/E:  1.3  CR:  1.6  MktCap: $    16.2B  $  132.68
+  # 11  DECK             Deckers Outdoor Corporati  EY:   12.6%  ROC:   51.3%  D/E:  0.2  CR:  2.7  MktCap: $    11.6B  $   86.71
+  # 12  KHC              The Kraft Heinz Company    EY:    9.3%  ROC:   57.4%  D/E:  0.5  CR:  1.0  MktCap: $    29.1B  $   24.61
+  # 13  BMY              Bristol-Myers Squibb Comp  EY:    8.2%  ROC:   63.4%  D/E:  1.9  CR:  1.6  MktCap: $   127.0B  $   62.14
+  # 14  BR               Broadridge Financial Solu  EY:    5.9%  ROC:  218.5%  D/E:  1.4  CR:  1.2  MktCap: $    21.5B  $  190.40
+  # 15  INTU             Intuit Inc.                EY:    6.8%  ROC:   92.5%  D/E:  0.4  CR:  1.5  MktCap: $    91.3B  $  341.50
+  # 16  FIX              Comfort Systems USA, Inc.  EY:    6.3%  ROC:  101.5%  D/E:  0.1  CR:  1.1  MktCap: $    35.8B  $ 1017.50
+  # 17  VLO              Valero Energy Corporation  EY:   17.9%  ROC:   44.0%  D/E:  0.4  CR:  1.7  MktCap: $    96.6B  $  346.45
+  # 18  NTAP             NetApp, Inc.               EY:    6.0%  ROC:  109.6%  D/E:  1.7  CR:  1.2  MktCap: $    33.2B  $  169.19
+  # 19  LII              Lennox International, Inc  EY:    7.7%  ROC:   60.0%  D/E:  1.6  CR:  1.2  MktCap: $    11.7B  $  341.97
+  # 20  ADP              Automatic Data Processing  EY:    5.2%  ROC:  255.4%  D/E:  1.1  CR:  1.0  MktCap: $   119.8B  $  303.35
+  # 21  PAYX             Paychex, Inc.              EY:    5.8%  ROC:  108.2%  D/E:  1.2  CR:  1.3  MktCap: $    41.7B  $  117.06
+  # 22  MPC              Marathon Petroleum Corpor  EY:   17.1%  ROC:   42.0%  D/E:  1.5  CR:  1.4  MktCap: $   101.5B  $  372.74
+  # 23  PNR              Pentair plc.               EY:    6.2%  ROC:   80.1%  D/E:  0.4  CR:  1.5  MktCap: $    10.9B  $   68.12
+  # 24  GOOG             Alphabet Inc.              EY:    8.6%  ROC:   45.9%  D/E:  0.2  CR:  2.8  MktCap: $  3490.6B  $  283.93
+  # 25  GOOGL            Alphabet Inc.              EY:    8.5%  ROC:   45.9%  D/E:  0.2  CR:  2.8  MktCap: $  3501.1B  $  284.78
+  # 26  NVDA             NVIDIA Corporation         EY:    5.1%  ROC:  132.3%  D/E:  0.2  CR:  4.6  MktCap: $  4506.8B  $  186.64
+  # 27  NXPI             NXP Semiconductors N.V.    EY:    6.6%  ROC:   63.4%  D/E:  0.9  CR:  2.1  MktCap: $    62.6B  $  248.29
+  # 28  AOS              A.O. Smith Corporation     EY:    7.3%  ROC:   54.8%  D/E:  0.4  CR:  1.6  MktCap: $     8.7B  $   64.55
+  # 29  PM               Philip Morris Internation  EY:    4.9%  ROC:  192.0%  D/E:  0.0  CR:  1.0  MktCap: $   308.4B  $  197.88
+  # 30  RMD              ResMed Inc.                EY:    6.1%  ROC:   66.7%  D/E:  0.1  CR:  2.6  MktCap: $    33.1B  $  235.30
+
+Full results saved to: /tmp/mf-cache/sp500.csv
+
+--- Summary Statistics (Top 30) ---
+  Market:                   US (USD)
+  Median Earnings Yield:    7.9%
+  Median Return on Capital: 81.0%
+  Median D/E:               0.43x
+  Median Market Cap:        $52.1B
+
+  Sector Distribution:
+    Technology: 12 (40%)
+    Industrials: 5 (17%)
+    Communication Services: 4 (13%)
+    Healthcare: 3 (10%)
+    Consumer Cyclical: 2 (7%)
+    Consumer Defensive: 2 (7%)
+    Energy: 2 (7%)
+EXIT:0

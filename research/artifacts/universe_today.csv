@@ -1,0 +1,364 @@
+ticker,gics_sector,cik
+GOOG,Communication Services,1652044
+AMZN,Consumer Discretionary,1018724
+XOM,Energy,2115436
+LMT,Industrials,936468
+META,Communication Services,1326801
+MU,Information Technology,723125
+MSFT,Information Technology,789019
+NFLX,Communication Services,1065280
+NKE,Consumer Discretionary,320187
+SNPS,Information Technology,883241
+MMM,Industrials,66740
+AOS,Industrials,91142
+ABT,Health Care,1800
+ABBV,Health Care,1551152
+ACN,Information Technology,1467373
+ADBE,Information Technology,796343
+AMD,Information Technology,2488
+A,Health Care,1090872
+APD,Materials,2969
+ABNB,Consumer Discretionary,1559720
+AKAM,Information Technology,1086222
+ALB,Materials,915913
+ALGN,Health Care,1097149
+ALLE,Industrials,1579241
+MO,Consumer Staples,764180
+AMCR,Materials,1748790
+AME,Industrials,1037868
+AMGN,Health Care,318154
+APH,Information Technology,820313
+ADI,Information Technology,6281
+APA,Energy,1841666
+AAPL,Information Technology,320193
+AMAT,Information Technology,6951
+APP,Communication Services,1751008
+APTV,Consumer Discretionary,1521332
+ADM,Consumer Staples,7084
+ANET,Information Technology,1596532
+T,Communication Services,732717
+ADSK,Information Technology,769397
+ADP,Industrials,8670
+AZO,Consumer Discretionary,866787
+AVY,Materials,8818
+AXON,Industrials,1069183
+BKR,Energy,1701605
+BALL,Materials,9389
+BAX,Health Care,10456
+BDX,Health Care,10795
+BBY,Consumer Discretionary,764478
+TECH,Health Care,842023
+BIIB,Health Care,875045
+BE,Industrials,1664703
+BA,Industrials,12927
+BKNG,Consumer Discretionary,1075531
+BSX,Health Care,885725
+BMY,Health Care,14272
+AVGO,Information Technology,1730168
+BR,Industrials,1383312
+BF-B,Consumer Staples,14693
+BG,Consumer Staples,1996862
+CHRW,Industrials,1043277
+CDNS,Information Technology,813672
+CAH,Health Care,721371
+CCL,Consumer Discretionary,815097
+CARR,Industrials,1783180
+CVNA,Consumer Discretionary,1690820
+CASY,Consumer Staples,726958
+CAT,Industrials,18230
+CDW,Information Technology,1402057
+COR,Health Care,1140859
+CNC,Health Care,1071739
+CF,Materials,1324404
+CRL,Health Care,1100682
+CHTR,Communication Services,1091667
+CVX,Energy,93410
+CMG,Consumer Discretionary,1058090
+CHD,Consumer Staples,313927
+CIEN,Information Technology,936395
+CI,Health Care,1739940
+CTAS,Industrials,723254
+CSCO,Information Technology,858877
+CLX,Consumer Staples,21076
+KO,Consumer Staples,21344
+CTSH,Information Technology,1058290
+COHR,Information Technology,820318
+CL,Consumer Staples,21665
+CMCSA,Communication Services,1166691
+FIX,Industrials,1035983
+COP,Energy,1163165
+STZ,Consumer Staples,16918
+COO,Health Care,711404
+CPRT,Industrials,900075
+GLW,Information Technology,24741
+COST,Consumer Staples,909832
+CRH,Materials,849395
+CRWD,Information Technology,1535527
+CSX,Industrials,277948
+CMI,Industrials,26172
+CVS,Health Care,64803
+DHR,Health Care,313616
+DRI,Consumer Discretionary,940944
+DDOG,Information Technology,1561550
+DVA,Health Care,927066
+DECK,Consumer Discretionary,910521
+DE,Industrials,315189
+DELL,Information Technology,1571996
+DAL,Industrials,27904
+DVN,Energy,1090012
+DXCM,Health Care,1093557
+FANG,Energy,1539838
+DG,Consumer Staples,29534
+DLTR,Consumer Staples,935703
+DPZ,Consumer Discretionary,1286681
+DASH,Consumer Discretionary,1792789
+DOV,Industrials,29905
+DOW,Materials,1751788
+DHI,Consumer Discretionary,882184
+DD,Industrials,1666700
+ETN,Industrials,1551182
+EBAY,Consumer Discretionary,1065088
+ECHO,Communication Services,1415404
+ECL,Materials,31462
+EW,Health Care,1099800
+ELV,Health Care,1156039
+EME,Industrials,105634
+EMR,Industrials,32604
+EOG,Energy,821189
+EQT,Energy,33213
+EFX,Industrials,33185
+EL,Consumer Staples,1001250
+P,Information Technology,1474432
+EXE,Energy,895126
+EXPE,Consumer Discretionary,1324424
+EXPD,Industrials,746515
+FFIV,Information Technology,1048695
+FICO,Information Technology,814547
+FAST,Industrials,815556
+FDX,Industrials,1048911
+FDXF,Industrials,2082247
+FERG,Industrials,2011641
+FSLR,Information Technology,1274494
+FLEX,Information Technology,866374
+F,Consumer Discretionary,37996
+FTNT,Information Technology,1262039
+FTV,Industrials,1659166
+FOXA,Communication Services,1754301
+FCX,Materials,831259
+GRMN,Consumer Discretionary,1121788
+IT,Information Technology,749251
+GE,Industrials,40545
+GEHC,Health Care,1932393
+GEV,Industrials,1996810
+GEN,Information Technology,849399
+GNRC,Industrials,1474735
+GD,Industrials,40533
+GIS,Consumer Staples,40704
+GM,Consumer Discretionary,1467858
+GPC,Consumer Discretionary,40987
+GILD,Health Care,882095
+GDDY,Information Technology,1609711
+HAL,Energy,45012
+HAS,Consumer Discretionary,46080
+HCA,Health Care,860730
+HSIC,Health Care,1000228
+HSY,Consumer Staples,47111
+HPE,Information Technology,1645590
+HLT,Consumer Discretionary,1585689
+HD,Consumer Discretionary,354950
+HONA,Industrials,2089271
+HON,Industrials,773840
+HRL,Consumer Staples,48465
+HWM,Industrials,4281
+HPQ,Information Technology,47217
+HUBB,Industrials,48898
+HUM,Health Care,49071
+HII,Industrials,1501585
+IBM,Information Technology,51143
+IEX,Industrials,832101
+IDXX,Health Care,874716
+ITW,Industrials,49826
+ILMN,Health Care,1110803
+INCY,Health Care,879169
+IR,Industrials,1699150
+PODD,Health Care,1145197
+INTC,Information Technology,50863
+IFF,Materials,51253
+IP,Materials,51434
+INTU,Information Technology,896878
+ISRG,Health Care,1035267
+IQV,Health Care,1478242
+JBHT,Industrials,728535
+JBL,Information Technology,898293
+J,Industrials,52988
+JNJ,Health Care,200406
+JCI,Industrials,833444
+KDP,Consumer Staples,1418135
+KEYS,Information Technology,1601046
+KMB,Consumer Staples,55785
+KMI,Energy,1506307
+KLAC,Information Technology,319201
+KHC,Consumer Staples,1637459
+KR,Consumer Staples,56873
+LHX,Industrials,202058
+LH,Health Care,920148
+LRCX,Information Technology,707549
+LVS,Consumer Discretionary,1300514
+LDOS,Industrials,1336920
+LEN,Consumer Discretionary,920760
+LII,Industrials,1069202
+LLY,Health Care,59478
+LIN,Materials,1707925
+LYV,Communication Services,1335258
+LOW,Consumer Discretionary,60667
+LULU,Consumer Discretionary,1397187
+LITE,Information Technology,1633978
+LYB,Materials,1489393
+MPC,Energy,1510295
+MAR,Consumer Discretionary,1048286
+MLM,Materials,916076
+MRVL,Information Technology,1835632
+MAS,Industrials,62996
+MKC,Consumer Staples,63754
+MCD,Consumer Discretionary,63908
+MCK,Health Care,927653
+MDT,Health Care,1613103
+MRK,Health Care,310158
+MTD,Health Care,1037646
+MGM,Consumer Discretionary,789570
+MCHP,Information Technology,827054
+MRNA,Health Care,1682852
+MDLZ,Consumer Staples,1103982
+MPWR,Information Technology,1280452
+MNST,Consumer Staples,865752
+MOS,Materials,1285785
+MSI,Information Technology,68505
+NTAP,Information Technology,1002047
+NEM,Materials,1164727
+NWSA,Communication Services,1564708
+NDSN,Industrials,72331
+NSC,Industrials,702165
+NOC,Industrials,1133421
+NCLH,Consumer Discretionary,1513761
+NUE,Materials,73309
+NVDA,Information Technology,1045810
+NVR,Consumer Discretionary,906163
+NXPI,Information Technology,1413447
+ORLY,Consumer Discretionary,898173
+OXY,Energy,797468
+OKTA,Information Technology,1660134
+ODFL,Industrials,878927
+OMC,Communication Services,29989
+ON,Information Technology,1097864
+OKE,Energy,1039684
+ORCL,Information Technology,1341439
+OTIS,Industrials,1781335
+PCAR,Industrials,75362
+PKG,Materials,75677
+PLTR,Information Technology,1321655
+PANW,Information Technology,1327567
+PH,Industrials,76334
+PAYX,Industrials,723531
+PNR,Industrials,77360
+PEP,Consumer Staples,77476
+PFE,Health Care,78003
+PM,Consumer Staples,1413329
+PSX,Energy,1534701
+PPG,Materials,79879
+PG,Consumer Staples,80424
+PTC,Information Technology,857005
+PHM,Consumer Discretionary,822416
+Q,Information Technology,2058873
+QCOM,Information Technology,804328
+PWR,Industrials,1050915
+DGX,Health Care,1022079
+RL,Consumer Discretionary,1037038
+RDDT,Communication Services,1713445
+REGN,Health Care,872589
+RSG,Industrials,1060391
+RMD,Health Care,943819
+RVTY,Health Care,31791
+ROK,Industrials,1024478
+ROL,Industrials,84839
+ROP,Information Technology,882835
+ROST,Consumer Discretionary,745732
+RCL,Consumer Discretionary,884887
+RTX,Industrials,101829
+CRM,Information Technology,1108524
+SNDK,Information Technology,2023554
+SLB,Energy,87347
+STX,Information Technology,1137789
+NOW,Information Technology,1373715
+SHW,Materials,89800
+SKYD,Communication Services,2041610
+SWKS,Information Technology,4127
+SJM,Consumer Staples,91419
+SW,Materials,2005951
+SNA,Industrials,91440
+SOLV,Health Care,1964738
+LUV,Industrials,92380
+SWK,Industrials,93556
+SBUX,Consumer Discretionary,829224
+STLD,Materials,1022671
+STE,Health Care,1757898
+SYK,Health Care,310764
+SMCI,Information Technology,1375365
+SYY,Consumer Staples,96021
+TMUS,Communication Services,1283699
+TTWO,Communication Services,946581
+TPR,Consumer Discretionary,1116132
+TRGP,Energy,1389170
+TGT,Consumer Staples,27419
+TEL,Information Technology,1385157
+TDY,Information Technology,1094285
+TER,Information Technology,97210
+TSLA,Consumer Discretionary,1318605
+TXN,Information Technology,97476
+TPL,Energy,1811074
+TXT,Industrials,217346
+TMO,Health Care,97745
+TJX,Consumer Discretionary,109198
+TKO,Communication Services,1973266
+TSCO,Consumer Discretionary,916365
+TT,Industrials,1466258
+TDG,Industrials,1260221
+TRMB,Information Technology,864749
+TWLO,Information Technology,1447669
+TYL,Information Technology,860731
+TSN,Consumer Staples,100493
+UBER,Industrials,1543151
+ULTA,Consumer Discretionary,1403568
+UNP,Industrials,100885
+UAL,Industrials,100517
+UPS,Industrials,1090727
+URI,Industrials,1067701
+UNH,Health Care,731766
+UHS,Health Care,352915
+VLO,Energy,1035002
+VEEV,Health Care,1393052
+VLTO,Industrials,1967680
+VRSN,Information Technology,1014473
+VRSK,Industrials,1442145
+VZ,Communication Services,732712
+VRTX,Health Care,875320
+VRT,Industrials,1674101
+VTRS,Health Care,1792044
+VMC,Materials,1396009
+VYLR,Consumer Staples,2128626
+GWW,Industrials,277135
+WAB,Industrials,943452
+WMT,Consumer Staples,104169
+DIS,Communication Services,1744489
+WM,Industrials,823768
+WAT,Health Care,1000697
+WST,Health Care,105770
+WDC,Information Technology,106040
+WSM,Consumer Discretionary,719955
+WMB,Energy,107263
+WDAY,Information Technology,1327811
+WYNN,Consumer Discretionary,1174922
+XYL,Industrials,1524472
+YUM,Consumer Discretionary,1041061
+ZBRA,Information Technology,877212
+ZBH,Health Care,1136869
+ZTS,Health Care,1555280

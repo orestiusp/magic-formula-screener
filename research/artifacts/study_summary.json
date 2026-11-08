@@ -1,0 +1,396 @@
+{
+  "started_utc": "2026-11-08T06:47:31.386239+00:00",
+  "finished_utc": "2026-11-08T06:48:39.999122+00:00",
+  "protocol": "research/PROTOCOL.md",
+  "yfinance_version": "1.8.0",
+  "universe_rows": 363,
+  "ciks": 363,
+  "formation_dates": [
+    "2016-09-30",
+    "2017-09-29",
+    "2018-09-28",
+    "2019-09-30",
+    "2020-09-30",
+    "2021-09-30",
+    "2022-09-30",
+    "2023-09-29",
+    "2024-09-30",
+    "2025-09-30",
+    "2026-09-30"
+  ],
+  "market_cap_sanity": {
+    "MSFT": {
+      "ok": true,
+      "asof": "2021-09-30",
+      "market_cap": 2118598241544.1235,
+      "price": 281.9200134277344,
+      "shares_reported": 7514891248.0,
+      "split_factor": 1.0
+    },
+    "AMZN": {
+      "ok": true,
+      "asof": "2021-09-30",
+      "market_cap": 1663677354692.9565,
+      "price": 164.2519989013672,
+      "shares_reported": 506440520.0,
+      "split_factor": 20.0
+    }
+  },
+  "coverage": [
+    {
+      "asof": "2016-09-30",
+      "eligible": 256,
+      "listed": 363
+    },
+    {
+      "asof": "2017-09-29",
+      "eligible": 260,
+      "listed": 363
+    },
+    {
+      "asof": "2018-09-28",
+      "eligible": 265,
+      "listed": 363
+    },
+    {
+      "asof": "2019-09-30",
+      "eligible": 272,
+      "listed": 363
+    },
+    {
+      "asof": "2020-09-30",
+      "eligible": 277,
+      "listed": 363
+    },
+    {
+      "asof": "2021-09-30",
+      "eligible": 285,
+      "listed": 363
+    },
+    {
+      "asof": "2022-09-30",
+      "eligible": 288,
+      "listed": 363
+    },
+    {
+      "asof": "2023-09-29",
+      "eligible": 290,
+      "listed": 363
+    },
+    {
+      "asof": "2024-09-30",
+      "eligible": 290,
+      "listed": 363
+    },
+    {
+      "asof": "2025-09-30",
+      "eligible": 294,
+      "listed": 363
+    },
+    {
+      "asof": "2026-09-30",
+      "eligible": 295,
+      "listed": 363
+    }
+  ],
+  "debt_how_counts": {
+    "LongTermDebt": 1072,
+    "noncurrent_plus_current": 664,
+    "LongTermDebtAndCapitalLeaseObligations": 419,
+    "no_debt_tag_assumed_zero": 383,
+    "short_term_only": 225,
+    "noncurrent_plus_current_plus_short_term_borrowings": 192,
+    "noncurrent_plus_current_plus_commercial_paper": 91,
+    "LongTermDebt_plus_current_portion": 15,
+    "DebtCurrent": 11
+  },
+  "ppe_tag_counts": {
+    "PropertyPlantAndEquipmentNet": 2752,
+    "PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization": 320
+  },
+  "returns": [
+    {
+      "strategy": "classic_top30_gross",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 4.08238184233943,
+      "total_return": 3.08238184233943,
+      "cagr": 0.1510646760482115,
+      "rebalance_date_max_drawdown": -0.01896280632964542,
+      "mean_holdings": 30.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "classic_top30_net",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 4.038227265768786,
+      "total_return": 3.0382272657687857,
+      "cagr": 0.1498134250928802,
+      "rebalance_date_max_drawdown": -0.02013465849731122,
+      "mean_holdings": 30.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "msft_gross",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 10.027976434114446,
+      "total_return": 9.027976434114446,
+      "cagr": 0.2593169191061102,
+      "rebalance_date_max_drawdown": -0.16696043207257272,
+      "mean_holdings": 1.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "msft_net",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 10.017948457680331,
+      "total_return": 9.017948457680331,
+      "cagr": 0.2591909134606518,
+      "rebalance_date_max_drawdown": -0.1669604320725726,
+      "mean_holdings": 1.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "repo_rules_top30_gross",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 4.552685400515789,
+      "total_return": 3.552685400515789,
+      "cagr": 0.1636859116643241,
+      "rebalance_date_max_drawdown": -0.10270219368881495,
+      "mean_holdings": 30.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "repo_rules_top30_net",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 4.501074994333086,
+      "total_return": 3.501074994333086,
+      "cagr": 0.16235976782413464,
+      "rebalance_date_max_drawdown": -0.10382966857170906,
+      "mean_holdings": 30.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "spy_gross",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 4.128590026565867,
+      "total_return": 3.128590026565867,
+      "cagr": 0.1523611463254424,
+      "rebalance_date_max_drawdown": -0.15508963542285226,
+      "mean_holdings": 1.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "spy_net",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 4.1244614365393,
+      "total_return": 3.1244614365393,
+      "cagr": 0.15224584253825357,
+      "rebalance_date_max_drawdown": -0.15508963542285226,
+      "mean_holdings": 1.0,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "universe_ew_gross",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 5.304524862546453,
+      "total_return": 4.304524862546453,
+      "cagr": 0.1816111220205079,
+      "rebalance_date_max_drawdown": -0.11991045940045642,
+      "mean_holdings": 237.36363636363637,
+      "periods_with_missing_prices": 0
+    },
+    {
+      "strategy": "universe_ew_net",
+      "start": "2016-09-30",
+      "end": "2026-09-30",
+      "days": 3652,
+      "final_wealth": 5.284455648474945,
+      "total_return": 4.284455648474945,
+      "cagr": 0.18116324535334494,
+      "rebalance_date_max_drawdown": -0.1201814854300376,
+      "mean_holdings": 237.36363636363637,
+      "periods_with_missing_prices": 0
+    }
+  ],
+  "msft_classic_ranks": [
+    {
+      "asof": "2016-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 178.0,
+      "mf_score": 328.0,
+      "ey_rank": 167.0,
+      "roc_rank": 161.0,
+      "earnings_yield": 0.04177266749130051,
+      "return_on_capital": 0.20456319241022106,
+      "universe": 227.0
+    },
+    {
+      "asof": "2017-09-29",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 199.0,
+      "mf_score": 363.0,
+      "ey_rank": 185.0,
+      "roc_rank": 178.0,
+      "earnings_yield": 0.03471205473086971,
+      "return_on_capital": 0.18752204807740766,
+      "universe": 234.0
+    },
+    {
+      "asof": "2018-09-28",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 185.0,
+      "mf_score": 335.0,
+      "ey_rank": 177.0,
+      "roc_rank": 158.0,
+      "earnings_yield": 0.037245501470432645,
+      "return_on_capital": 0.24928537906907292,
+      "universe": 236.0
+    },
+    {
+      "asof": "2019-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 186.0,
+      "mf_score": 316.0,
+      "ey_rank": 167.0,
+      "roc_rank": 149.0,
+      "earnings_yield": 0.03827440566624242,
+      "return_on_capital": 0.3012362473616672,
+      "universe": 238.0
+    },
+    {
+      "asof": "2020-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 144.0,
+      "mf_score": 260.0,
+      "ey_rank": 154.0,
+      "roc_rank": 106.0,
+      "earnings_yield": 0.032263440239510686,
+      "return_on_capital": 0.3444353391087177,
+      "universe": 228.0
+    },
+    {
+      "asof": "2021-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 148.0,
+      "mf_score": 270.0,
+      "ey_rank": 170.0,
+      "roc_rank": 100.0,
+      "earnings_yield": 0.03233079564151375,
+      "return_on_capital": 0.44972469510626256,
+      "universe": 239.0
+    },
+    {
+      "asof": "2022-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 140.0,
+      "mf_score": 255.0,
+      "ey_rank": 164.0,
+      "roc_rank": 91.0,
+      "earnings_yield": 0.047034820953111706,
+      "return_on_capital": 0.5596174496644295,
+      "universe": 249.0
+    },
+    {
+      "asof": "2023-09-29",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 152.0,
+      "mf_score": 266.0,
+      "ey_rank": 178.0,
+      "roc_rank": 88.0,
+      "earnings_yield": 0.037533905905006805,
+      "return_on_capital": 0.503689921422028,
+      "universe": 241.0
+    },
+    {
+      "asof": "2024-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 128.0,
+      "mf_score": 234.0,
+      "ey_rank": 167.0,
+      "roc_rank": 67.0,
+      "earnings_yield": 0.033932099511182805,
+      "return_on_capital": 0.6435758855321426,
+      "universe": 242.0
+    },
+    {
+      "asof": "2025-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 162.0,
+      "mf_score": 276.0,
+      "ey_rank": 181.0,
+      "roc_rank": 95.0,
+      "earnings_yield": 0.03327226018049782,
+      "return_on_capital": 0.5042706539181337,
+      "universe": 250.0
+    },
+    {
+      "asof": "2026-09-30",
+      "variant": "classic",
+      "ticker": "MSFT",
+      "eligibility_reason": "ok",
+      "in_ranked_universe": true,
+      "mf_rank": 150.0,
+      "mf_score": 275.0,
+      "ey_rank": 156.0,
+      "roc_rank": 119.0,
+      "earnings_yield": 0.040553862318044746,
+      "return_on_capital": 0.44106307232903647,
+      "universe": 248.0
+    }
+  ],
+  "sources": {
+    "constituents": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+    "sec_tickers": "https://www.sec.gov/files/company_tickers.json",
+    "sec_companyfacts": "https://data.sec.gov/api/xbrl/companyfacts/CIK##########.json",
+    "prices": "Yahoo Finance via yfinance, auto_adjust=False; Close for enterprise value, Adj Close for total return"
+  },
+  "bias": "Today's S&P 500 membership. No delisting return. Not a CRSP/Compustat backtest."
+}
