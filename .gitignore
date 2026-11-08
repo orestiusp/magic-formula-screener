@@ -45,3 +45,8 @@ docs/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# audit cache (re-downloadable SEC/Yahoo payloads; not source)
+research/cache/
+__pycache__/
+.pytest_cache/

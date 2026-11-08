@@ -1,0 +1,52 @@
+=== Magic Formula Screener — yfinance ===
+Market: US | Currency: USD | Min Market Cap: $0B
+
+Custom universe: 10 tickers
+
+Fetching data for 10 tickers (using parallel workers)...
+
+  Progress: 10/10 tickers fetched
+
+Data fetch complete: 10/10 tickers with full data (0 errors)
+
+Applying enhanced filters:
+  After data completeness filter: 10 stocks (removed 0)
+  After positive EBIT filter: 10 stocks (removed 0)
+  After market cap >$300M filter: 10 stocks (removed 0)
+  After sector exclusion filter: 10 stocks (removed 0)
+  After industry exclusion filter: 10 stocks (removed 0)
+  After D/E <2.0x filter: 9 stocks (removed 1)
+  After current ratio >1.0x filter: 8 stocks (removed 1)
+  After >1 year listed filter: 8 stocks (removed 0)
+
+Calculating Magic Formula rankings...
+Final ranked universe: 8 stocks
+
+================================================================================
+TOP 8 MAGIC FORMULA STOCKS
+================================================================================
+
+  #  1  MU               Micron Technology, Inc.    EY:   13.4%  ROC:   78.6%  D/E:  0.0  CR:  3.3  MktCap: $   780.7B  $  690.00
+  #  2  NFLX             Netflix, Inc.              EY:    6.9%  ROC:  500.0%  D/E:  0.6  CR:  1.1  MktCap: $   260.4B  $   63.41
+  #  3  GOOG             Alphabet Inc.              EY:    8.6%  ROC:   45.9%  D/E:  0.2  CR:  2.8  MktCap: $  3490.6B  $  283.93
+  #  4  SNPS             Synopsys, Inc.             EY:    2.1%  ROC:   61.7%  D/E:  0.3  CR:  1.3  MktCap: $    86.3B  $  450.46
+  #  5  XOM              ExxonMobil Holdings Corpo  EY:    8.0%  ROC:   18.0%  D/E:  0.1  CR:  1.2  MktCap: $   676.6B  $  165.87
+  #  6  META             Meta Platforms, Inc.       EY:    5.1%  ROC:   24.2%  D/E:  0.4  CR:  1.9  MktCap: $  1560.1B  $  610.15
+  #  7  MSFT             Microsoft Corporation      EY:    4.5%  ROC:   44.0%  D/E:  0.3  CR:  1.2  MktCap: $  3940.4B  $  530.61
+  #  8  NKE              Nike, Inc.                 EY:    6.3%  ROC:   18.7%  D/E:  0.7  CR:  2.1  MktCap: $    57.3B  $   38.59
+
+Full results saved to: /workspace/research/artifacts/current_user_set.csv
+
+--- Summary Statistics (Top 8) ---
+  Market:                   US (USD)
+  Median Earnings Yield:    6.6%
+  Median Return on Capital: 44.9%
+  Median D/E:               0.32x
+  Median Market Cap:        $728.7B
+
+  Sector Distribution:
+    Technology: 3 (38%)
+    Communication Services: 3 (38%)
+    Energy: 1 (12%)
+    Consumer Cyclical: 1 (12%)
+
